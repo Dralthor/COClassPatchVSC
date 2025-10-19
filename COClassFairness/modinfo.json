@@ -1,0 +1,15 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "coclasspatchVSC",
+    "name": "CO Class Ballance VSC",
+    "authors": [
+        "Dralthor, Kiaser"
+    ],
+    "description": "A re-ballance of the Vanilla CO classes for VSC",
+    "version": "0.8.0",
+  "dependencies": {
+    "game": "1.21.0",
+    "combatoverhaul": "0.10.8"
+  }
+}

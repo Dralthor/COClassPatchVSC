@@ -1,0 +1,167 @@
+[
+  {
+    "code": "eagleeye",
+    "type": "positive",
+    "attributes": {
+      "rangedWeaponsDamage": 0.15
+    }
+  },
+  {
+    "code": "resourcefulVSC",
+    "type": "positive",
+    "attributes": {
+      "animalLootDropRate": 0.2,
+      "animalHarvestingTime": -0.3
+    }
+  },
+  {
+    "code": "undisciplined",
+    "type": "negative",
+    "attributes": {
+      "meleeWeaponsDamage": -0.1,
+      "steadyAim": -0.15
+    }
+  },
+  {
+    "code": "scavenger",
+    "type": "positive",
+    "attributes": {
+      "vesselContentsDropRate": 0.3
+    }
+  },
+  {
+    "code": "outdoorsman",
+    "type": "positive",
+    "attributes": {
+      "logMulti": 0.15,
+      "forageDropRate": 0.2,
+      "wildCropDropRate": 0.25
+    }
+  },
+  {
+    "code": "survivalist",
+    "type": "positive",
+    "attributes": {
+      "animalSeekingRange": 0.35,
+      "hungerrate": -0.1
+    }
+  },
+  {
+    "code": "sturdyframe",
+    "type": "positive",
+    "attributes": {
+      "steadyAim": 0.25,
+      "armorManipulationSpeedAffectedness": -0.3
+    }
+  },
+  {
+    "code": "overbulked",
+    "type": "negative",
+    "attributes": {
+      "armorWalkSpeedAffectedness": 0.20
+    }
+  },
+  {
+    "code": "overwoked",
+    "type": "negative",
+    "attributes": {
+      "healingeffectivness": -0.15
+    }
+  },
+  {
+    "code": "prospecting",
+    "type": "positive",
+    "attributes": {
+      "panMulti": 0.25
+    }
+  },
+  {
+    "code": "callousedhands",
+    "type": "negative",
+    "attributes": {
+      "forageDropRate": -0.10,
+      "harvestMulti": -0.15
+    }
+  },
+  {
+    "code": "soldierVSC",
+    "type": "positive",
+    "attributes": {
+      "meleeWeaponsDamage": 0.2,
+      "armorWalkSpeedAffectedness": -0.4
+    }
+  },
+  {
+    "code": "hardyVSC",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 3.5
+    }
+  },
+  {
+    "code": "nervedamage",
+    "type": "negative",
+    "attributes": {
+      "steadyAim": -0.3,
+      "javelinsProficiency": -0.3,
+      "bowsProficiency": -0.3,
+      "crossbowsProficiency": -0.3,
+      "rangedWeaponsDamage": -0.1
+    }
+  },
+  {
+    "code": "hardlabor",
+    "type": "positive",
+    "attributes": {
+      "oreDropRate": 0.1,
+      "miningSpeedMul": 0.15
+    }
+  },
+  {
+    "code": "medic",
+    "type": "positive",
+    "attributes": {
+      "healingeffectivness": 0.5
+    }
+  },
+  {
+    "code": "wealthydiet",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 2
+    }
+  },
+  {
+    "code": "softupbringing",
+    "type": "negative",
+    "attributes": {
+      "forageDropRate": -0.1,
+      "miningSpeedMul": -0.1
+    }
+  },
+  {
+    "code": "citylife",
+    "type": "negative",
+    "attributes": {
+      "meleeWeaponsDamage": -0.1,
+      "rangedWeaponsDamage": -0.1
+    }
+  },
+  {
+    "code": "workforged",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 2,
+      "meleeWeaponsDamage": 0.1,
+      "rangedWeaponsDamage": 0.1
+    }
+  },
+  {
+    "code": "farmtending",
+    "type": "positive",
+    "attributes": {
+      "forageDropRate": 0.10,
+      "harvestMulti": 0.15
+    }
+  }
+]

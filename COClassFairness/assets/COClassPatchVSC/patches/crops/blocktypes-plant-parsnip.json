@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/dropsByType/*-7/1/dropModbyStat",
+    "value": "harvestMulti",
+    "file": "game:blocktypes/plant/crop/parsnip.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-8/1/dropModbyStat",
+    "value": "harvestMulti",
+    "file": "game:blocktypes/plant/crop/parsnip.json"
+  }
+]
