@@ -63,7 +63,7 @@
 </ItemGroup>
 
 <ItemGroup>
-  <Folder Include="assets\COClassPatchVSC\patches\vessels\" />
+  <Folder Include="assets\coclassfairness\patches\vessels\" />
 </ItemGroup>
 
 </Project>

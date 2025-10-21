@@ -40,7 +40,7 @@
       "resourcefulVSC",
       "bowyer",
       "farsighted",
-      "claustrophobic"
+      "claustrophobicVSC"
     ],
     "gear": [
       {
@@ -81,7 +81,6 @@
     "enabled": true,
     "code": "malefactorVSC",
     "traits": [
-      "eagleeye",
       "javelinsProficiency",
       "slingsProficiency",
       "macesProficiency",
@@ -91,7 +90,7 @@
       "outdoorsman",
       "survivalist",
       "undisciplined",
-      "claustrophobic"
+      "wildling"
     ],
     "gear": [
       {
@@ -142,9 +141,9 @@
       "macesProficiency",
       "sturdyframe",
       "fleetfooted",
-      "prospecting",
+      "forgepractices",
       "overbulked",
-      "overwoked",
+      "overworked",
       "callousedhands"
     ],
     "gear": [
@@ -191,6 +190,7 @@
       "merciless",
       "hardlabor",
       "nervedamage",
+      "scentofblood",
       "ravenous"
     ],
     "gear": [

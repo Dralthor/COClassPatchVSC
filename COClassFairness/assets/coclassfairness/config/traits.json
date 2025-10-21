@@ -15,6 +15,13 @@
     }
   },
   {
+    "code": "claustrophobicVSC",
+    "type": "positive",
+    "attributes": {
+      "oreDropRate": -0.2
+    }
+  },
+  {
     "code": "undisciplined",
     "type": "negative",
     "attributes": {
@@ -26,7 +33,8 @@
     "code": "scavenger",
     "type": "positive",
     "attributes": {
-      "vesselContentsDropRate": 0.3
+      "vesselContentsDropRate": 0.3,
+      "panMulti": 0.25
     }
   },
   {
@@ -47,11 +55,28 @@
     }
   },
   {
+    "code": "wildling",
+    "type": "negative",
+    "attributes": {
+      "armorDurabilityLoss": 0.2,
+      "harvestMulti": -0.1,
+      "oreDropRate": -0.1
+    }
+  },
+  {
     "code": "sturdyframe",
     "type": "positive",
     "attributes": {
       "steadyAim": 0.25,
       "armorManipulationSpeedAffectedness": -0.3
+    }
+  },
+  {
+    "code": "forgepractices",
+    "type": "positive",
+    "attributes": {
+      "armorDurabilityLoss": -0.15,
+      "coalDropRate": 0.2
     }
   },
   {
@@ -62,7 +87,7 @@
     }
   },
   {
-    "code": "overwoked",
+    "code": "overworked",
     "type": "negative",
     "attributes": {
       "healingeffectivness": -0.15
@@ -113,8 +138,15 @@
     "code": "hardlabor",
     "type": "positive",
     "attributes": {
-      "oreDropRate": 0.1,
-      "miningSpeedMul": 0.15
+      "oreDropRate": 0.15,
+      "miningSpeedMul": 0.1
+    }
+  },
+  {
+    "code": "scentofblood",
+    "type": "negative",
+    "attributes": {
+      "animalSeekingRange": -0.20
     }
   },
   {
@@ -132,15 +164,15 @@
     }
   },
   {
-    "code": "softupbringing",
+    "code": "citylife",
     "type": "negative",
     "attributes": {
       "forageDropRate": -0.1,
-      "miningSpeedMul": -0.1
+      "oreDropRate": -0.1
     }
   },
   {
-    "code": "citylife",
+    "code": "softupbringing",
     "type": "negative",
     "attributes": {
       "meleeWeaponsDamage": -0.1,
