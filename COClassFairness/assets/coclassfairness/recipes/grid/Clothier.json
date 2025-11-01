@@ -1,0 +1,56 @@
+[
+	{
+    ingredientPattern: "SK_,C__,___",
+    enabled: true,
+		shapeless: true,
+    width: 3,
+    height: 3,
+    requiresTrait: "clothier",
+		ingredients: {
+			"S": { type: "item", code: "game:knife-*", isTool: true },
+      "K": { type: "item", code: "game:shears-*", isTool: true },
+			"C": { type: "block", code: "game:linen-*", allowedVariants: ["offset-down", "diamond-down", "square-down"]}
+	  },
+    recipeGroup: 3,
+    output: {
+      "type": "item",
+      "code": "game:bandage-clean",
+      "quantity": 12
+    }
+  },
+  {
+		ingredientPattern: "SBS	KL_",
+		enabled: true,
+		width: 3,
+		height: 2,
+		requiresTrait: "clothier",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*", allowedVariants: ["offset-down", "diamond-down", "square-down"]},
+			"S": { type: "item", code: "game:powder-sulfur" },
+			"B": { type: "block", code: "game:bowl-*-fired" },
+			"K": { type: "item", code: "game:shears-*", isTool: true }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.5
+			}
+		},		
+		recipeGroup: 2,
+		output: { type: "item", code: "game:poultice-linen-honey-sulfur", quantity: 10  }
+	},
+	{
+		ingredientPattern: "H	L	K",
+		enabled: true,
+		width: 1,
+		height: 3,
+		requiresTrait: "clothier",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*", allowedVariants: ["offset-down", "diamond-down", "square-down"]},
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 6 },
+			"K": { type: "item", code: "game:shears-*", isTool: true }
+		},
+		recipeGroup: 2,
+		output: { type: "item", code: "game:poultice-linen-horsetail", quantity: 10  }
+	},
+]

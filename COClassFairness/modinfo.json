@@ -7,8 +7,8 @@
         "Dralthor, Kiaser"
     ],
     "description": "A re-ballance of the Vanilla CO classes for VSC",
-    "version": "0.8.0",
+    "version": "0.8.8",
   "dependencies": {
-    "combatoverhaul": "0.10.8"
+    "combatoverhaul": "0.10.12"
   }
 }

@@ -1,0 +1,302 @@
+[
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-copper",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-bismuthbronze",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-tinbronze",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-blackbronze",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-silver",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-silver",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-gold",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-gold",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-iron",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-cupronickel",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-cupronickel",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-meteoriciron",
+      "quantity": 8
+    }
+  },
+  {
+    "ingredientPattern": "HC_,P__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-steel",
+      "quantity": 8
+    }
+  }
+]

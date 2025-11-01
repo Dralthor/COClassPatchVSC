@@ -1,0 +1,332 @@
+[
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-copper",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-copper",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-bismuthbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-bismuthbronze",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-tinbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-tinbronze",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-blackbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-blackbronze",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-silver",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-silver",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-gold",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-gold",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-electrum",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-electrum",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-iron",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-iron",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-cupronickel",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-cupronickel",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-meteoriciron",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-meteoriciron",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "HP_,C__,___",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:ingot-steel",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:rod-steel",
+      "quantity": 1
+    }
+  }
+]

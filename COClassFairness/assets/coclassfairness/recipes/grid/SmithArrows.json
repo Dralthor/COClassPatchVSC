@@ -1,0 +1,272 @@
+[
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-copper",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-bismuthbronze",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-tinbronze",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-blackbronze",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-silver",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-silver",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-gold",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-gold",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-iron",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-meteoriciron",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-meteoriciron",
+      "quantity": 18
+    }
+  },
+  {
+    "ingredientPattern": "H__,C__,P__",
+    "enabled": true,
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "forgepractices",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:arrowhead-steel",
+      "quantity": 18
+    }
+  }
+]

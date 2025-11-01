@@ -94,6 +94,13 @@
     }
   },
   {
+    "code": "strainedeyes",
+    "type": "negative",
+    "attributes": {
+      "rangedWeaponsDamage": -0.10
+    }
+  },
+  {
     "code": "prospecting",
     "type": "positive",
     "attributes": {

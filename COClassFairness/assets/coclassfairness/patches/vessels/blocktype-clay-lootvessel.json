@@ -1,0 +1,104 @@
+[
+	{
+		"op": "replace",
+		"path": "/attributes/lootTriesByType",
+		"value": {
+			"*-seed": 1,
+			"*-food": 2,
+			"*-forage": 2.5,
+			"*-ore": 1.35,
+			"*-tool": 2.2,
+			"*-farming": 2.5,
+			"*-arcticsupplies": 2.5
+		},
+		"file": "game:blocktypes/clay/lootvessel.json"
+	},
+  {
+    "op": "replace",
+    "path": "/attributes/lootListByType",
+    "value": {
+			"*-seed": [
+				{ type: "item", chance: 1, minQuantity: 8, maxQuantity: 12, codes: ["seeds-carrot", "seeds-onion", "seeds-turnip", "seeds-parsnip"] },
+				{ type: "item", chance: 0.6, minQuantity: 8, maxQuantity: 12, codes: ["seeds-spelt", "seeds-rice", "seeds-rye", "seeds-amaranth"] },
+				{ type: "item", chance: 0.6, minQuantity: 12, maxQuantity: 18, codes: ["seeds-flax"] },
+				{ type: "item", chance: 0.3, minQuantity: 8, maxQuantity: 12, codes: ["seeds-soybean", "seeds-pumpkin", "seeds-cabbage"] },
+				{ type: "item", chance: 0.2, minQuantity: 8, maxQuantity: 12, codes: ["seeds-sunflower"] }
+			],
+			"*-food": [
+				{ type: "block", chance: 2, minQuantity: 12, maxQuantity: 24, codes: ["wallpaper-blue4", "wallpaper-green1", "wallpaper-grey1", "wallpaper-brown", "wallpaper-walnut", "wallpaper-darkpurple", "wallpaper-yellow", "wallpaper-pink", "wallpaper-lightgreen"] },
+				{ type: "block", chance: 1.5, minQuantity: 12, maxQuantity: 24, codes: ["glass-blue", "glass-violet", "glass-red", "glass-yellow", "glass-brown", "glass-pink" ] },
+				{ type: "item", chance: 1, minQuantity: 8, maxQuantity: 16, codes: ["paper-parchment" ] }, 
+				{ type: "item", chance: 0.6, minQuantity: 8, maxQuantity: 16, codes: ["omokpiece-lead", "omokpiece-copper", "omokpiece-gold", ] }, 
+				{ type: "block", chance: 0.1, minQuantity: 1, maxQuantity: 1, codes: ["omoktabletop"] },
+				{ type: "block", chance: 0.2, minQuantity: 1, maxQuantity: 1, codes: [ "painting-howl-north", "painting-elk-north", "painting-underwater-north", "painting-prey-north", "painting-family1-north", "painting-forestdawn-north", "painting-fishandtherain-north", "painting-bogfort-north", "painting-butterfly-north", "painting-castleruin-north", "painting-cow-north", "painting-glam-north", "painting-hunter-north", "painting-hunterintheforest-north", "painting-iris-north", "painting-seraph-north", "painting-sleepingwolf-north", "painting-sodhouse-north", "painting-sunkenruin-north", "painting-thunderlord-north", "painting-traveler-north", "painting-trout-north", "painting-oldvillage-north", "painting-lastday-north", "painting-uncle1-north" ]}, 
+				{ type: "block", chance: 0.2, minQuantity: 1, maxQuantity: 1, codes: ["door-sleek-windowed-birch", "door-sleek-windowed-oak", "door-sleek-windowed-maple", "door-sleek-windowed-pine", "door-sleek-windowed-acacia", "door-sleek-windowed-kapok", "door-sleek-windowed-baldcypress", "door-sleek-windowed-larch", "door-sleek-windowed-redwood", "door-sleek-windowed-ebony", "door-sleek-windowed-walnut", "door-sleek-windowed-purpleheart" ] },
+				{ type: "block", chance: 0.2, minQuantity: 2, maxQuantity: 4, codes: ["smallcarpet-blue", "smallcarpet-brown", "smallcarpet-red", "smallcarpet-turqoise"] },
+				{ type: "block", chance: 0.2, minQuantity: 1, maxQuantity: 1, codes: ["chandelier-candle0" ] }, 
+				{ type: "block", chance: 0.3, minQuantity: 12, maxQuantity: 18, codes: ["ironfence-base-ew", "ironfence-top-ew" ] },
+				{ type: "item", chance: 0.2, minQuanity: 1, maxQuantity: 1, codes: ["tuningcylinder-1", "tuningcylinder-2", "tuningcylinder-3", "tuningcylinder-4", "tuningcylinder-5", "tuningcylinder-6", "tuningcylinder-7", "tuningcylinder-8", "tuningcylinder-9"] },
+				{ type: "block", chance: 0.1, minQuantity: 1, maxQuantity: 1, codes: ["resonator-north" ] }
+			],
+			"*-forage": [
+				{ type: "item", chance: 1, minQuantity: 12, maxQuantity: 16, codes: ["flint" ] }, 
+				{ type: "item", chance: 1, minQuantity: 16, maxQuantity: 28, codes: ["stick" ] }, 
+				{ type: "item", chance: 1, minQuantity: 16, maxQuantity: 26, codes: ["drygrass" ] }, 
+				{ type: "item", chance: 1, minQuantity: 18, maxQuantity: 32, codes: ["stone-limestone", "stone-chalk", "stone-bauxite" ] }, 
+				{ type: "item", chance: 1, minQuantity: 32, maxQuantity: 46, codes: ["clay-blue", "clay-red" ] }, 
+				{ type: "item", chance: 1, minQuantity: 18, maxQuantity: 32, codes: ["cattailtops" ] }, 
+				{ type: "item", chance: 0.5, minQuantity: 12, maxQuantity: 24, codes: ["flaxfibers" ] }, 
+				{ type: "item", chance: 0.3, minQuantity: 5, maxQuantity: 8, codes: ["honeycomb" ] }, 
+				{ type: "item", chance: 0.3, minQuantity: 28, maxQuantity: 42, codes: ["clay-fire" ] },
+				{ type: "item", chance: 0.1, minQuantity: 1, maxQuantity: 3, codes: ["treeseed-crimsonkingmaple", "treeseed-purpleheart", "treeseed-ebony" ] }
+			],
+			"*-ore": [
+				{ type: "item", chance: 2, minQuantity: 16, maxQuantity: 24, codes: ["ore-lignite", "ore-bituminouscoal", "ore-anthracite" ] },
+				{ type: "item", chance: 1, minQuantity: 8, maxQuantity: 12, codes: ["nugget-nativecopper"] }, 
+				{ type: "item", chance: 0.8, minQuantity: 12, maxQuantity: 24, codes: ["ore-quartz", "nugget-galena" ] }, 
+				{ type: "item", chance: 0.6, minQuantity: 10, maxQuantity: 20, codes: ["nugget-limonite", "nugget-magnetite", "nugget-hematite" ] },
+				{ type: "item", chance: 0.4, minQuantity: 6, maxQuantity: 18, codes: ["nugget-cassiterite", "nugget-sphalerite", "nugget-bismuthinite" ] },  
+				{ type: "item", chance: 0.2, minQuantity: 4, maxQuantity: 12, codes: ["nugget-nativegold", "nugget-chromite", "nugget-ilmenite", "nugget-nativesilver"] }
+			],
+			"*-tool": [
+				{ type: "item", chance: 1, minQuantity: 1, maxQuantity: 1, codes: ["axe-flint" ] }, 
+				{ type: "item", chance: 1, minQuantity: 1, maxQuantity: 1, codes: ["shovel-flint" ] }, 
+				{ type: "item", chance: 1, minQuantity: 1, maxQuantity: 1, codes: ["knife-generic-flint" ] }, 
+				{ type: "item", chance: 0.15, minQuantity: 1, maxQuantity: 1, codes: ["axe-felling-copper", "axe-felling-bismuthbronze", "axe-felling-tinbronze" ] }, 
+				{ type: "item", chance: 0.15, minQuantity: 1, maxQuantity: 1, codes: ["shovel-copper", "shovel-bismuthbronze", "shovel-tinbronze" ] }, 
+				{ type: "item", chance: 0.15, minQuantity: 1, maxQuantity: 1, codes: ["pickaxe-copper", "pickaxe-bismuthbronze", "pickaxe-tinbronze" ] }, 
+				{ type: "item", chance: 0.15, minQuantity: 1, maxQuantity: 1, codes: ["scythe-copper", "scythe-bismuthbronze", "scythe-tinbronze" ] }, 
+				{ type: "item", chance: 0.15, minQuantity: 1, maxQuantity: 1, codes: ["knife-generic-copper", "knife-generic-bismuthbronze", "knife-generic-tinbronze" ] }, 
+				{ type: "item", chance: 0.15, minQuantity: 1, maxQuantity: 1, codes: ["blade-falx-copper", "blade-falx-bismuthbronze", "blade-falx-tinbronze" ] }
+			],
+			"*-farming": [
+				{ type: "item", chance: 1, minQuantity: 8, maxQuantity: 16, codes: ["compost" ] },
+				{ type: "item", chance: 0.2, minQuantity: 1, maxQuantity: 1, codes: ["linensack" ] },
+				{ type: "item", chance: 0.75, minQuantity: 12, maxQuantity: 24, codes: ["flaxfibers" ] }, 
+				{ type: "item", chance: 0.35, minQuantity: 4, maxQuantity: 12, codes: ["flaxtwine" ] }, 
+				{ type: "item", chance: 0.75, minQuantity: 18, maxQuantity: 32, codes: ["cattailtops" ] }, 
+				{ type: "item", chance: 0.15, minQuantity: 1, maxQuantity: 1, codes: ["scythe-copper", "scythe-bismuthbronze", "scythe-tinbronze" ] },
+				{ type: "block", chance: 0.3, minQuantity: 8, maxQuantity: 14, codes: ["soil-high-none" ] }
+			],
+			"*-arcticsupplies": [
+				{ type: "item", chance: 0.2, minQuantity: 1, maxQuantity: 1, codes: ["linensack" ] },
+				{ type: "item", chance: 1, minQuantity: 18, maxQuantity: 32, codes: ["cattailtops" ] }, 
+				{ type: "item", chance: 1, minQuantity: 16, maxQuantity: 26, codes: ["drygrass" ] }, 
+				{ type: "item", chance: 1, minQuantity: 8, maxQuantity: 12, codes: ["flint" ] }, 
+				{ type: "item", chance: 1, minQuantity: 16, maxQuantity: 28, codes: ["stick" ] }, 
+				{ type: "item", chance: 1, minQuantity: 18, maxQuantity: 32, codes: ["stone-limestone", "stone-chalk", "stone-bauxite" ] }, 
+				{ type: "block", chance: 1, minQuantity: 12, maxQuantity: 18, codes: ["soil-medium-none" ] }, 
+				{ type: "item", chance: 1, minQuantity: 32, maxQuantity: 46, codes: ["clay-blue", "clay-red" ] },
+				{ type: "item", chance: 0.5, minQuantity: 12, maxQuantity: 24, codes: ["flaxfibers" ] },
+				{ type: "item", chance: 0.3, minQuantity: 28, maxQuantity: 42, codes: ["clay-fire" ] },
+				{ type: "item", chance: 0.3, minQuantity: 5, maxQuantity: 8, codes: ["honeycomb" ] },
+				{ type: "block", chance: 0.2, minQuantity: 8, maxQuantity: 14, codes: ["soil-high-none" ] }
+			]
+    },
+    "file": "game:blocktypes/clay/lootvessel.json"
+  },
+	{
+		"op": "replace",
+		"path": "/variantgroups",
+		"value": [{ code: "loottype", states: ["seed", "food", "forage", "ore", "tool", "farming", "arcticsupplies"] }],
+		"file": "game:blocktypes/clay/lootvessel.json"
+	}
+]

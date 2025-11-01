@@ -26,6 +26,7 @@
   "game:trait-farmtending": "<font color=\"#84ff84\">• Farm Tending </font>",
   "game:trait-clothier": "<font color=\"#84ff84\">• Clothier </font>",
   "game:trait-citylife": "<font color=\"#ff8484\">• City Life </font>",
+  "game:trait-strainedeyes": "<font color=\"#ff8484\">• Strained Eyes </font>",
 
   "game:traitname-eagleeye": "Eagle Eye",
   "game:traitname-resourcefulVSC": "Resourceful",
@@ -53,14 +54,15 @@
   "game:traitname-farmtending": "Farm Tending",
   "game:traitname-clothier": "Clothier",
   "game:traitname-citylife": "City Life",
+  "game:traitname-strainedeyes": "Strained Eyes",
 
-  "game:traitdesc-prospecting": "+25% to drops from panning, can get more nuggets from ore chunks with the propper tools.",
+  "game:traitdesc-prospecting": "+25% to drops from panning",
   "game:traitdesc-clothier": "Exclusive craftable <a href=\"handbooksearch://sewing kit or chateau or pastoral or reindeer or moon or minstrel or fortune or nomad or spice or cobalt or azure or thigh-high or fine trousers or high leather\">sewing kit and clothes.</a> Efficient bandage recipies.",
 
   "game:characterclass-commonerVSC": "Commoner",
   "game:characterclass-hunterVSC": "Hunter",
   "game:characterclass-malefactorVSC": "Malefactor",
-  "game:characterclass-clockmakerVSC": "Smith",
+  "game:characterclass-clockmaker": "Smith",
   "game:characterclass-blackguardVSC": "Blackguard",
   "game:characterclass-tailorVSC": "Tailor",
 
@@ -101,15 +103,16 @@
   "game:charattribute-meleeWeaponsDamage-0.1": "+10% melee weapon damage",
   "game:charattribute-rangedWeaponsDamage-0.1": "+10% ranged weapon damage",
   "game:charattribute-oreDropRate--0.2": "-20% ore drop rate",
-  "game:charattribute-coalDropRate-0.2": "20% more charcoal",
+  "game:charattribute-coalDropRate-0.2": "20% more charcoal, instant arrowhead, nail, and rod crafting in grid",
   "game:charattribute-animalSeekingRange--0.2": "+20% animal detection range",
   "game:charattribute-oreDropRate-0.15": "+15% ore drop rate",
 
-  "game:characterdesc-commonerVSC": "<font color=\"#99c9f9\"><i>It can take some a life-time to find their role in the world. You, were never given that oppotunity.</i></font><br><br>A Commoner's upbringing keeps them flexible to life's curveballs. But, one common shared experience is that of hunger, and the fields used to fight it off.",
-  "game:characterdesc-hunterVSC": "<font color=\"#99c9f9\"><i>Philosophers will debate the cost of a life in their books and debate floors, while you venture out into the woods, and have become a rather efficient haggler.</i></font><br><br>Hunters are ranged specialists that excel in the wild forests, plains, and mountains. They struggle in the confined tunnels of the underground.",
-  "game:characterdesc-malefactorVSC": "<font color=\"#99c9f9\"><i>What drives someone to abandon civilization, in favor of the bitter wilds and silent ruins?<br>A love of the latter, or hatred of the former?</i></font><br><br>Malefactors are vicious wildfolk who would rather settle in the woods than call a deadstone building home. But all that time spent mastering the wilderness left undisciplined, and careless.",
-  "game:characterdesc-clockmakerVSC": "<font color=\"#99c9f9\"><i>The clock winds down; the forge’s heat grows.<br>A metal may always find new purpose.</i></font><br><br>Long days in the workroom and an ever growing need for more steel have forged the smiths into large bulking forms. But heavy blows leave for dull hands and a stressed body.",
-  "game:characterdesc-blackguardVSC": "<font color=\"#99c9f9\"><i>Dedication. That's what they told you it would take. A fair warning on the tremors would have been nice.</i></font><br><br>Blackguards train both their body and technique into a perfected melee form. But the constant beatings and strict training has damaged the nerves required for precision aim and fine dexterity.",
-  "game:characterdesc-tailorVSC": "<font color=\"#99c9f9\"><i>Stitching a garb, suturing a wound. Your job is to mend, and necessity breeds innovation.</i></font><br><br>Tailors are skilled in both making and repairing cloths, and bandages. A wealthy trade affords them a good diet growing up, but the craft requires complete dedication."
+  "game:characterdesc-commoner": "<font color=\"#99c9f9\"><i>It can take some a life-time to find their role in the world. You, were never given that oppotunity.</i></font><br><br>A Commoner's upbringing keeps them flexible to life's curveballs. But, one common shared experience is that of hunger, and the fields used to fight it off.",
+  "game:characterdesc-hunter": "<font color=\"#99c9f9\"><i>Philosophers will debate the cost of a life in their books and debate floors, while you venture out into the woods, and have become a rather efficient haggler.</i></font><br><br>Hunters are ranged specialists that excel in the wild forests, plains, and mountains. They struggle in the confined tunnels of the underground.",
+  "game:characterdesc-malefactor": "<font color=\"#99c9f9\"><i>What drives someone to abandon civilization, in favor of the bitter wilds and silent ruins?<br>A love of the latter, or hatred of the former?</i></font><br><br>Malefactors are vicious wildfolk who would rather settle in the woods than call a deadstone building home. But all that time spent mastering the wilderness left undisciplined, and careless.",
+  "game:characterdesc-clockmaker": "<font color=\"#99c9f9\"><i>The clock winds down; the forge’s heat grows.<br>A metal may always find new purpose.</i></font><br><br>Long days in the workroom and an ever growing need for more steel have forged the smiths into large bulking forms. But heavy blows leave for dull hands and a stressed body.",
+  "game:characterdesc-blackguard": "<font color=\"#99c9f9\"><i>Dedication. That's what they told you it would take. A fair warning on the tremors would have been nice.</i></font><br><br>Blackguards train both their body and technique into a perfected melee form. But the constant beatings and strict training has damaged the nerves required for precision aim and fine dexterity.",
+  "game:characterdesc-tailor": "<font color=\"#99c9f9\"><i>Stitching a garb, suturing a wound. Your job is to mend, and necessity breeds innovation.</i></font><br><br>Tailors are skilled in both making and repairing cloths, and bandages. A wealthy trade affords them a good diet growing up, but the craft requires complete dedication.",
 
+  "game:block-lootvessel-food": "Cracked vessel (Trader's Delight)"
 }

@@ -1,38 +1,257 @@
 [
   {
-    "file": "game:config/characterclasses",
-    "op": "add",
+    "file": "combatoverhaul:patches/traits-and-classes",
     "path": "/0/enabled",
-    "value": false
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
   },
   {
-    "file": "game:config/characterclasses",
-    "op": "add",
+    "file": "combatoverhaul:patches/traits-and-classes",
     "path": "/1/enabled",
-    "value": false
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
   },
   {
-    "file": "game:config/characterclasses",
-    "op": "add",
+    "file": "combatoverhaul:patches/traits-and-classes",
     "path": "/2/enabled",
-    "value": false
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
   },
   {
-    "file": "game:config/characterclasses",
-    "op": "add",
+    "file": "combatoverhaul:patches/traits-and-classes",
     "path": "/3/enabled",
-    "value": false
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
   },
   {
-    "file": "game:config/characterclasses",
-    "op": "add",
+    "file": "combatoverhaul:patches/traits-and-classes",
     "path": "/4/enabled",
-    "value": false
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
   },
   {
-    "file": "game:config/characterclasses",
-    "op": "add",
+    "file": "combatoverhaul:patches/traits-and-classes",
     "path": "/5/enabled",
-    "value": false
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "combatoverhaul:patches/traits-and-classes",
+    "path": "/6/enabled",
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "combatoverhaul:patches/traits-and-classes",
+    "path": "/7/enabled",
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "combatoverhaul:patches/traits-and-classes",
+    "path": "/8/enabled",
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "combatoverhaul:patches/traits-and-classes",
+    "path": "/9/enabled",
+    "op": "replace",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses",
+    "path": "/0/traits",
+    "op": "replace",
+    "value": [ "workforged", "farmtending" ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses",
+    "path": "/1/traits",
+    "op": "replace",
+    "value": [
+      "eagleeye",
+      "javelinsProficiency",
+      "bowsProficiency",
+      "crossbowsProficiency",
+      "steadyAim",
+      "spearsProficiency",
+      "fleetfooted",
+      "resourcefulVSC",
+      "bowyer",
+      "farsighted",
+      "claustrophobicVSC"
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses",
+    "path": "/2/traits",
+    "op": "replace",
+    "value": [
+      "javelinsProficiency",
+      "slingsProficiency",
+      "macesProficiency",
+      "clubsProficiency",
+      "axesProficiency",
+      "scavenger",
+      "outdoorsman",
+      "survivalist",
+      "improviser",
+      "undisciplined",
+      "wildling"
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses",
+    "path": "/3/traits",
+    "op": "replace",
+    "value": [
+      "crossbowsProficiency",
+      "quarterstaffProficiency",
+      "halberdsProficiency",
+      "macesProficiency",
+      "sturdyframe",
+      "fleetfooted",
+      "forgepractices",
+      "overbulked",
+      "strainedeyes",
+      "overworked",
+      "callousedhands"
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses",
+    "path": "/4/traits",
+    "op": "replace",
+    "value": [
+      "soldierVSC",
+      "oneHandedSwordsProficiency",
+      "twoHandedSwordsProficiency",
+      "macesProficiency",
+      "canParryProjectiles",
+      "hardyVSC",
+      "merciless",
+      "hardlabor",
+      "nervedamage",
+      "scentofblood",
+      "ravenous"
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses",
+    "path": "/5/traits",
+    "op": "replace",
+    "value": [
+      "medic",
+      "wealthydiet",
+      "clothier",
+      "softupbringing",
+      "citylife",
+      "kind"
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
   }
 ]
